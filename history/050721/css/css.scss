@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
 body {
     background: #fff url(/assets/history/050721/background.jfif) center center/cover no-repeat;
 }
@@ -23,4 +24,7 @@ body {
 }
 .descriptionfont{
     font-family: 'Yomogi', cursive;
+}
+.subtitlefont{
+    font-family: 'Source Code Pro', monospace;
 }
