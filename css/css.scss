@@ -1,0 +1,52 @@
+$navbackground:#21201f;
+$interactiveuibackground:#9c9994;
+$interactiveuiborder:#6e6a6a;
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+body {
+    background: #21201f;
+}
+nav {
+background-color: $navbackground;
+color:#d9d5d2;
+width: auto;
+border: 13px solid $navbackground;
+padding-left: 0.1cm;
+padding-right: 0.1cm;
+padding-top: 0.1cm;
+padding-bottom: 0.1cm;
+}
+.headfont{
+    font-family: 'Yellowtail', cursive;
+}
+.headbtn{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Yellowtail', cursive;
+    background-color: $navbackground;
+    border: 10px double $navbackground;
+}
+#outer
+{
+    width:100%;
+    text-align: center;
+}
+.inner
+{
+    display: inline-block;
+}
+.content {
+    background-color: $navbackground;
+    color:#d9d5d2;
+    width: auto;
+    border: 13px solid $navbackground;
+    padding-left: 0.1cm;
+    padding-right: 0.1cm;
+    padding-top: 0.1cm;
+    padding-bottom: 0.1cm;
+    font-family: 'Benne', serif;
+}
+.subtitlefont{
+    font-family: 'Ubuntu', sans-serif;
+}
